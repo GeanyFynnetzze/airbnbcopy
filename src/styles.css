@@ -1,0 +1,379 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow-y: auto;
+}
+
+.navbar-section {
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem 5rem;
+  border-width: 0;
+  -webkit-box-shadow: 0 0.1rem 0.6rem rgba(50, 47, 47, 0.3);
+          box-shadow: 0 0.1rem 0.6rem rgba(50, 47, 47, 0.3);
+  border-style: solid;
+}
+
+.navbar-section .navbar-logo {
+  width: 5rem;
+  margin-right: 1rem;
+  max-width: 10rem;
+}
+
+.navbar-section h1 {
+  color: #b34242;
+  font-size: 3rem;
+  font-weight: 200;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hero-section {
+  padding: 5rem;
+}
+
+.hero-section .navbar-img1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero-section .navbar-img1 img {
+  max-width: 70vw;
+}
+
+.hero-text {
+  margin: 2rem 0;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.hero-text p {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.cards-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5rem;
+}
+
+.cards-section .card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem 2rem;
+  word-spacing: 0.2rem;
+  max-width: 20rem;
+}
+
+.cards-section .card .card-img {
+  max-width: 20rem;
+  border-radius: 1rem;
+}
+
+.cards-section .card .status {
+  position: absolute;
+  border-width: 0.2rem;
+  border-style: solid;
+  border-radius: 0.3rem;
+  background-color: white;
+  border: none;
+  width: 8rem;
+  padding-top: 0.2rem;
+  height: 2rem;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #504e4e;
+  top: 2%;
+  left: 2%;
+  text-transform: uppercase;
+}
+
+.cards-section .card .first-row {
+  font-size: 1.7rem;
+}
+
+.cards-section .card .second-row {
+  font-size: 1.5rem;
+  color: #3b3a3a;
+}
+
+.cards-section .card .third-row {
+  font-size: 1.5rem;
+}
+
+.cards-section .card .star-span {
+  color: #c33b3b;
+}
+
+.cards-section .card .text-span {
+  color: gray;
+}
+
+.cards-section .card .bold-span {
+  font-weight: bold;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts .contact-card {
+  -webkit-box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem gray;
+          box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem gray;
+  border: none;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 3rem;
+}
+
+.contacts img {
+  width: 20rem;
+  height: 20rem;
+}
+
+.contacts h3 {
+  margin: 2rem 0;
+  font-size: 2.3rem;
+}
+
+.contacts .info-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  word-spacing: 0.5rem;
+}
+
+.contacts .info-group p {
+  padding: 0.3rem 1rem;
+}
+
+.joke-section {
+  font-size: 2rem;
+  padding: 3rem 2rem;
+  border-style: solid;
+  border-width: 0 0 1rem 0;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+form input {
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+}
+
+form textarea {
+  margin-left: 7rem;
+  border: 0.2rem solid #000000;
+  width: 17rem;
+  resize: vertical;
+  overflow: hidden;
+  float: left;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+form fieldset {
+  margin-top: 3rem;
+  padding: 1rem;
+  font-size: 2rem;
+  width: 40rem;
+}
+
+form fieldset label {
+  margin-left: 1rem;
+}
+
+form .check-box {
+  height: 2rem;
+  width: 2rem;
+}
+
+form .label-checked {
+  font-size: 3rem;
+}
+
+form select {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+form .label-select {
+  font-size: 3rem;
+  margin-top: 3rem;
+}
+
+form button {
+  margin-left: 5rem;
+  font-size: 3rem;
+}
+
+.form-container {
+  background-color: gray;
+  padding: 10rem;
+}
+
+.form-challenge {
+  background-color: goldenrod;
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5rem;
+}
+
+.form-challenge input {
+  padding-left: 1rem;
+  width: 23rem;
+  height: 4rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0.5rem 0.5rem 0.5rem black;
+          box-shadow: 0.5rem 0.5rem 0.5rem black;
+  font-size: 2rem;
+}
+
+.form-challenge label {
+  font-size: 3rem;
+}
+
+.form-challenge .check-challenge {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 3rem;
+}
+
+.form-challenge .check-challenge-div {
+  margin-left: 6rem;
+}
+
+.form-challenge button {
+  width: 15rem;
+  height: 5rem;
+  font-size: 3rem;
+  text-align: center;
+  background-color: gray;
+  color: goldenrod;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.meme--section {
+  padding: 5rem 4rem;
+}
+
+.meme--section img {
+  width: 100%;
+  height: 100%;
+}
+
+.meme--form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 4rem 4rem;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template: 4rem 4rem /1fr 1fr;
+  gap: 2rem;
+}
+
+.meme--form--input {
+  border-radius: 0.5rem;
+  border: 0.2rem solid #d5d4d8;
+}
+
+.meme--button {
+  grid-column: 1 / -1;
+  background-color: #5f1a79;
+  font-size: 2rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.meme {
+  position: relative;
+  font-size: 4rem;
+  color: white;
+}
+
+.meme--text-top {
+  position: absolute;
+  top: 1rem;
+  left: 30%;
+  font-weight: 5000;
+}
+
+.meme--text-bottom {
+  position: absolute;
+  bottom: 1rem;
+  right: 25%;
+}
+/*# sourceMappingURL=styles.css.map */
